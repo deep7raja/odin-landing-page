@@ -2,7 +2,7 @@ body{
     font-family: Roboto;
     margin:0px;
 }
-.header, .hero{
+.header, .hero, .information{
     padding:0px 225px;
 }
 /* Header css */
@@ -62,4 +62,86 @@ button{
 img{
     max-width: 50%;
     
+}
+/* Informaton css */
+.information{
+
+}
+.information-title{
+    font-size: 36px;
+    font-weight:800;
+    color:#1f2937;
+    text-align: center;
+    margin:20px 
+}
+.information-cards{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap:40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-box{
+    width: 150px;
+    height:150px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.card-text{
+    text-align: center;
+    width: 150px;
+    color:#5d6673;
+}
+/* Quote css */
+.quote{
+    color:#1f2937;
+    background-color: #e5e7eb;
+    padding: 100px 350px 70px;
+}
+.quote-text{
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.quote-thor{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Call css */
+.call{
+    display: flex;
+    background-color: #3882f6;
+    margin:100px 225px 50px;
+    justify-content: space-between;
+    padding: 50px 100px;
+    color:#f9faf8;
+    align-items: center;
+    border-radius: 10px;
+}
+.call1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.call2{
+    font-size: 20px;
+}
+.call button{
+    border:3px solid #f9faf8;
+    font-size: 25px;
+    padding: 4px 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
